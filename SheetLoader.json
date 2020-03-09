@@ -1,0 +1,38 @@
+{
+  "FileVersion": "v1.0",
+  "Updates": [
+				{
+					"Date":"2020-01-16",
+					"Update":"First Version Implementation"
+				},
+				{
+					"Date":"2020-02-21",
+					"Update": [
+									{"NewLoader":["SAPZBRSD0286","Relatório SAP ZBRSD0286"]}
+							  ]
+				}
+			],
+  
+  "Analist": "Reginaldo Luciano de Araujo",
+  "RegisteredLoaders": [
+    {
+      "File": "//Soasaofs01/corp_sao/cel179/Automation Tools/AcompanhamentoEntrega.json",
+      "Loader": "AcompanhamentoEntrega"
+    }
+,
+    {
+      "File": "//Soasaofs01/corp_sao/cel179/Automation Tools/SAPZBRSD0286.json",
+      "Loader": "SAPZBRSD0286"
+    }
+,
+    {
+      "File": "//Soasaofs01/corp_sao/cel179/Automation Tools/AgendamentoDHL.json",
+      "Loader": "AgendamentoDHL"
+    }
+,
+    {
+      "File": "//Soasaofs01/corp_sao/cel179/Automation Tools/DeParaTransportadoras.json",
+      "Loader": "DeParaTransportadoras"
+    }	
+  ]
+}
